@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mini&mex tag</title>
+</head>
+<body>
+    <form action="sucess.html">
+        <table border="1" cellpadding="10" cellspacing="5" align="center" width="50%">
+            <tr>
+                <td>
+                    <label for="source">Source</label>
+                    <input type="text" name="source" id="source">
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <label for="destination">Destination</label>
+                    <input type="text" name="destination" id="destination">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="journey date">Journey_Date</label>
+                    <input type="date" name="date" id="date" min="2026-02-01" mex="2026-02-25">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="seats"selecr seats>Select Sears</label>
+                    <input type="number" id="seats" name="seats" min="0" max="6">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="">Bustype</label>
+                    <input type="radio" name="bustype">volvo
+                    <input type="radio" name="bustype">ac
+                    <input type="radio" name="bustype">Non-Ac
+                    <input type="radio" name="bustype">Express
+                    <input type="radio" name="bustype">Sleeper
+                    <input type="radio" name="bustype">Seating
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="submit" name="submit">
+                    <input type="reset" name="clear all">
+                </td>
+            </tr>
+
+        </table>
+    </form>
+    
+</body>
+</html>
